@@ -127,7 +127,7 @@ export default function Home() {
                 location_on
               </span>
               <span className="font-headline-sm text-[18px] text-primary">
-                Deeper Life Campus Fellowship, Anambra State 2
+                DLCF Auditorium, UNIZIK, Awka, Anambra State
               </span>
             </div>
           </div>
