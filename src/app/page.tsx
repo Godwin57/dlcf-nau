@@ -28,7 +28,14 @@ export default function Home() {
     const month = date.toLocaleDateString("en-US", { month: "short" });
     const day = date.getDate();
     const getOrdinalNum = (n: number) => {
-      return n + (n > 0 ? ["th", "st", "nd", "rd"][(n > 3 && n < 21) || n % 10 > 3 ? 0 : n % 10] : "");
+      return (
+        n +
+        (n > 0
+          ? ["th", "st", "nd", "rd"][
+              (n > 3 && n < 21) || n % 10 > 3 ? 0 : n % 10
+            ]
+          : "")
+      );
     };
     setCurrentDate(`${weekday}, ${month} ${getOrdinalNum(day)}`);
   }, []);
@@ -87,10 +94,10 @@ export default function Home() {
         <section className="relative z-10 w-full max-w-3xl mx-auto text-center space-y-8 animate-subtle-float">
           <div className="space-y-4">
             <h1 className="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary leading-tight">
-              Deeper Life Campus Fellowship, Anambra State 2
+              DLCF, Anambra State 2
             </h1>
             <p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl mx-auto">
-              Welcome to Histerieo. We are glad you have chosen to worship with
+              Welcome to Histereo. We are glad you have chosen to worship with
               us as we explore the messages of hope and restoration.
             </p>
           </div>
