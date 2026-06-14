@@ -94,7 +94,7 @@ export default function Home() {
         <section className="relative z-10 w-full max-w-3xl mx-auto text-center space-y-8 animate-subtle-float">
           <div className="space-y-4">
             <h1 className="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary leading-tight">
-              DLCF, Anambra State 2
+              Deeper Life Campus Fellowship, Anambra State 2
             </h1>
             <p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl mx-auto">
               Welcome to Histereo. We are glad you have chosen to worship with
