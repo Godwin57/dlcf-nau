@@ -79,6 +79,7 @@ export default function Home() {
           <a
             className="bg-primary-container text-white px-6 py-2 rounded-lg font-label-md text-label-md hover:bg-opacity-90 transition-all"
             href="https://forms.gle/8iaULSmmoSowsfUu8"
+            target="blank"
           >
             Register
           </a>
