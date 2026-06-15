@@ -76,9 +76,12 @@ export default function Home() {
               Live
             </a>
           </div>
-          <button className="bg-primary-container text-white px-6 py-2 rounded-lg font-label-md text-label-md hover:bg-opacity-90 transition-all">
-            Join Us
-          </button>
+          <a
+            className="bg-primary-container text-white px-6 py-2 rounded-lg font-label-md text-label-md hover:bg-opacity-90 transition-all"
+            href="https://forms.gle/8iaULSmmoSowsfUu8"
+          >
+            Register
+          </a>
         </nav>
       </header>
 
